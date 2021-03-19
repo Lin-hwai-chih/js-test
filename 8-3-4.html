@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        let a="1";
-        let b=1;
-        console.log(a==b);
+
+        //i為4的時候略過，直接往下一個i(即是5)繼續執行
+        for(let i=1 ; i<=9 ; i++){
+            if(i==4){continue;}
+            console.log(`i=${i}`);
+        }
+
+
     </script>
 </head>
 <body>

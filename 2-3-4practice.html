@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <script>
-        let a="1";
-        let b=1;
-        console.log(a==b);
+        function getValue(){
+            var button = document.getElementById('myBtn');
+            alert(button.value);
+        }
     </script>
 </head>
 <body>
-    
+    <button id="myBtn" value="hello!!!!" onclick="getValue()">好按鈕</button>
 </body>
 </html>

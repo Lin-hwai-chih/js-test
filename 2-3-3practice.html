@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        let a="1";
-        let b=1;
-        console.log(a==b);
+        function getValue(){
+            var p=document.getElementById('myContent');
+            alert(p.innerHTML);
+        }
     </script>
+
 </head>
 <body>
+    <p id="myContent" onclick="getValue()"><span style="color:brown;font-size: 24px;">hello world</span></p>
     
 </body>
 </html>

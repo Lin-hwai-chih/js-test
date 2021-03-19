@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        let obj={
+            fname:'Lin',
+            lname:'Tony',
+            age:'33',
+            lineId:'tony78952',
+
+        };
+
+        for(let attr in obj){
+            console.log(`attr, ${attr}`);
+        }
+        //取Key的值
+
+
+        for(let attr in obj){
+            console.log(obj[attr]);
+        }
+        //取value的全部值
+
+        for(let attr in obj){
+            console.log(obj["fname"]);
+        }
+        //取其中Key的值
+
+        for(let attr in obj){
+            console.log(obj["fname"],obj["lname"]);
+        }
+        //取兩個key的值
+
+        let arr=['a','b','c'];
+        for(let key in arr){
+            console.log(`${key}`);
+        }
+
+
+        for(let value of arr){
+            console.log(`${value}`);
+        }
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
